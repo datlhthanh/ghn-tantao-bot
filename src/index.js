@@ -1,8 +1,8 @@
 const { Telegraf } = require("telegraf");
-const env = require("./config/env");
+require("dotenv").config();
 
 // lấy token từ env
-const token = env.TELEGRAM_BOT_TOKEN;
+const token = process.env.TELEGRAM_BOT_TOKEN;
 if (!token) {
   throw new Error("Chưa có BOT_TOKEN trên Vercel kìa ní ơi!");
 }

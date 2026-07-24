@@ -1,6 +1,6 @@
 const axios = require("axios");
-const env = require("../../config/env");
 const { Markup } = require("telegraf");
+require("dotenv").config();
 
 module.exports = (bot) => {
   // lắng nghe message
@@ -36,7 +36,7 @@ module.exports = (bot) => {
           {
             headers: {
               "x-warehouseid": "21606000",
-              authorization: env.AUTHORIZATION_TOKEN,
+              authorization: process.env.AUTHORIZATION_TOKEN,
             },
           },
         );
