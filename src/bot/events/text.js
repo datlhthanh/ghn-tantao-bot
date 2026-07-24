@@ -1,6 +1,5 @@
 const axios = require("axios");
 const { Markup } = require("telegraf");
-require("dotenv").config();
 
 module.exports = (bot) => {
   // lắng nghe message

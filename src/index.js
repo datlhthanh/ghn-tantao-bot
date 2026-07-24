@@ -1,5 +1,4 @@
 const { Telegraf } = require("telegraf");
-require("dotenv").config();
 
 // lấy token từ env
 const token = process.env.TELEGRAM_BOT_TOKEN;
