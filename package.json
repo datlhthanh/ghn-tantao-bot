@@ -6,13 +6,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datlhthanh/ghn-tantao-bot.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/datlhthanh/ghn-tantao-bot/issues"
+  },
+  "homepage": "https://github.com/datlhthanh/ghn-tantao-bot#readme",
   "dependencies": {
     "axios": "^1.18.1",
-    "node-cron": "^4.6.0",
-    "puppeteer-core": "^25.3.0"
+    "dotenv": "^17.4.2",
+    "telegraf": "^4.16.3"
   }
 }
